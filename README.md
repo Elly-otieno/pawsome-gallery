@@ -22,14 +22,79 @@ I am utilizing the **Dog CEO API** to retrieve breed data and images. Here are t
 
 ## Example JSON Response
 
-Here is an example of a JSON response from the Dog CEO API for testing purposes:
+Here is an example of a JSON response for the dog breeds from the Dog CEO API for testing purposes:
 
 ```json
 {
   "status": "success",
   "message": {
-    "bulldog": [],
-    "labrador": []
+    "affenpinscher": [],
+    "african": [],
+    "airedale": [],
+    "akita": [],
+    "appenzeller": [],
+    "australian": [
+      "kelpie",
+      "shepherd"
+    ],
+    "bakharwal": [
+      "indian"
+    ],
+    "basenji": [],
+    "beagle": [],
+    "bluetick": [],
+    "borzoi": [],
+    "bouvier": [],
+    "boxer": [],
+    "brabancon": [],
+    "briard": [],
+    "buhund": [
+      "norwegian"
+    ],
+    "bulldog": [
+      "boston",
+      "english",
+      "french"
+    ]
+  }
+}
+```
+
+Here is an example of a JSON response for the dog images for the selected breed (chihuahua) from the Dog CEO API for testing purposes:
+
+```json
+{
+  "status": "success",
+  "message": {
+    "https://images.dog.ceo/breeds/chihuahua/Judy.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/black_chihuahua.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/flora.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/marto.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/mickey.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/msdaisy.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_10131.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_1073.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_10976.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_11140.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_11258.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_11696.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_11818.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_11948.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_12101.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_12334.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_1235.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_1271.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_12718.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_1298.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_13151.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_1321.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_13383.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_13964.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_14252.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_14413.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_14516.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_1455.jpg",
+    "https://images.dog.ceo/breeds/chihuahua/n02085620_1502.jpg"
   }
 }
 ```

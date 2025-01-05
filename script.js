@@ -11,6 +11,8 @@ const DogBreedExplorer = () => {
   const fetchBreeds = async () => {
     const response = await fetch('https://dog.ceo/api/breeds/list/all');
     const data = await response.json();
+    console.log('[DEBUG] breeds: ', data);
+    
     setBreeds(Object.keys(data.message));
   };
 
@@ -19,6 +21,8 @@ const DogBreedExplorer = () => {
     setLoading(true);
     const response = await fetch(`https://dog.ceo/api/breed/${breed}/images`);
     const data = await response.json();
+    console.log('[DEBUG] images: ', data);
+    
     setBreedImages(data.message);
     setCurrentIndex(0); // Reset the image index
     setSelectedBreed(breed);
