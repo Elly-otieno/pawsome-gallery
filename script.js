@@ -7,14 +7,14 @@ const DogBreedExplorer = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  // Fetch list of breeds
+  // Fetch list of dog breeds
   const fetchBreeds = async () => {
     const response = await fetch('https://dog.ceo/api/breeds/list/all');
     const data = await response.json();
     setBreeds(Object.keys(data.message));
   };
 
-  // Fetch all images for a selected breed
+  // Fetch all images for a selected dog breed
   const fetchBreedImages = async (breed) => {
     setLoading(true);
     const response = await fetch(`https://dog.ceo/api/breed/${breed}/images`);
