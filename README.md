@@ -1,6 +1,6 @@
 # Pawsome Gallery 🐾
 
-Welcome to **Pawsome Gallery**! 🐶🎨 This project is a fun and interactive way to explore different dog breeds and view images of them. Browse through a list of dog breeds, select one, and navigate through beautiful images of that breed. Built using **React**, this app fetches data from the **Dog CEO API**.
+Welcome to **Pawsome Gallery**! 🐶🎨 This project is a fun and interactive way to explore different dog breeds and view images of them. Browse through a list of dog breeds, select one, and navigate through beautiful images of that breed.  Built using **React**, this app fetches data from the **Dog CEO API**.
 
 ## Features
 
@@ -15,7 +15,7 @@ Pawsome Gallery uses **React** for the user interface and **fetch** to make API 
 
 ### API Used
 
-We’re utilizing the **Dog CEO API** to retrieve breed data and images. Here are the key endpoints:
+I am utilizing the **Dog CEO API** to retrieve breed data and images. Here are the key endpoints:
 
 - **Breeds List**: `https://dog.ceo/api/breeds/list/all` - Fetches all available breeds.
 - **Breed Images**: `https://dog.ceo/api/breed/{breed}/images` - Fetches images for a specific breed.
@@ -57,7 +57,7 @@ Follow these steps to run the **Pawsome Gallery** on your local machine:
 
 ### No Installation Required
 
-Since this is a simple frontend app, no backend setup is needed. Just open the `index.html` file in your browser and enjoy exploring dog breeds!
+This is a simple frontend app, no backend setup is needed. Just open the `index.html` file in your browser and enjoy exploring dog breeds!
 
 ## Project Structure
 
